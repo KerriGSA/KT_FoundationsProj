@@ -396,6 +396,8 @@ GameObject:
   - component: {fileID: 1062652840}
   - component: {fileID: 1062652839}
   - component: {fileID: 1062652838}
+  - component: {fileID: 1062652844}
+  - component: {fileID: 1062652845}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -523,6 +525,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1062652844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062652837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41c7bcac9adaa04d887193110102025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!114 &1062652845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062652837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44985641b9fde30488616a230c8b30d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PushSpaceToDestroy
 --- !u!1001 &6697605649215675361
 PrefabInstance:
   m_ObjectHideFlags: 0
